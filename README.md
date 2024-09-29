@@ -23,6 +23,7 @@ the syntax is loaded, or you can set it temporarily with `:set ft=kitty`.
 {
     "warbacon/vim-kitty",
     ft = "kitty",
+    tag = "*"  -- You can select a tagged version
 }
 ```
 
@@ -32,7 +33,8 @@ the syntax is loaded, or you can set it temporarily with `:set ft=kitty`.
 > Recommended method for Vim. Also works in Neovim but this is **Vimscript**.
 
 ```vim
-Plug "warbacon/vim-kitty"
+" You can select a tagged version
+Plug 'warbacon/vim-kitty', { 'tag': '*' }
 ```
 
 ## ❓ Extra
