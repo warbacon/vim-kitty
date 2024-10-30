@@ -39,7 +39,7 @@ Plug 'warbacon/vim-kitty', { 'tag': '*' }
 
 ## ❓ Extra
 
-Keywords based on `v0.36.4`. The `gen-syntax.py` script syncs keywords with
+Keywords based on `v0.37.0`. The `gen-syntax.py` script syncs keywords with
 your current Kitty version, check inside of it for instructions.
 
 This is a fork of the [fladson plugin](https://github.com/fladson/vim-kitty)
